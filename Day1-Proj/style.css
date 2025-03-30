@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'gilroy';
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#nav{
+    height: 10vh;
+    padding: 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav2{
+    display: flex;
+    align-items: center;
+    gap: 25px
+}
+
+#nav h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#main h1{
+    font-size: 180px;
+    font-weight: 500;
+    line-height: 130px;
+    width: 70%;
+    margin-left: 15%;
+    position: relative;
+    z-index: 3;
+}
+
+#main h1:nth-child(2){
+    margin-top: 160px;
+}
+
+#main h1:nth-child(3){
+    text-align: center;
+}
+#main h1:nth-child(4){
+    text-align: center;
+    margin-left: 350px;
+}
+
+img{
+    height: 400px;
+    aspect-ratio: 9/16;
+    object-fit: cover;
+    position: absolute;
+    top: 15%;
+    left: 40%
+}
+
+#img1{
+    rotate: 20deg;
+}
+
+#img2{
+    rotate: 10deg;
+}
